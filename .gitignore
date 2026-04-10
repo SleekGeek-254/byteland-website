@@ -1,0 +1,137 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+pnpm-debug.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+coverage
+*.lcov
+.nyc_output
+test-results/
+
+# Production directory
+build
+dist
+dist-ssr
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+.env.development
+
+# Dependency directories
+node_modules/
+jspm_packages/
+.pnp
+.pnp.js
+
+# Vite
+.vite
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+*.cache
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.vscode/settings.json.local
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+.AppleDouble
+.LSOverride
+
+# Build artifacts
+*.tgz
+*.tar.gz
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Misc
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
+*~.nib
+.history/
+
+#Github pages repository
+src/
+public/
+docker-compose.yml
+Dockerfile.react
+nginx.conf
+ngrok.yaml
+PJ_Pricing.md
+
+# Asset build outputs
+src/assets/BYT3LAND/*.exe
+src/assets/BYT3LAND/*.dmg
+src/assets/BYT3LAND/*.AppImage
+src/assets/BYT3LAND/*.msi
+src/assets/BYT3LAND/*.deb
+src/assets/BYT3LAND/*.rpm
+
+# Tauri (if applicable)
+src-tauri/target/
+src-tauri/Cargo.lock
+
+# Next.js (if applicable)
+.next/
+out/
+
+# Storybook (if applicable)
+.storybook-out
+storybook-static
+
+# Debug
+ 
